@@ -1,0 +1,27 @@
+/* Created on jsFiddle */
+
+pre {
+  display: none;
+}
+
+path:hover,
+circle:hover {
+  stroke: #A52A2A !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #DEB887 !important;
+  cursor: pointer;
+}
+
+#information-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #A52A2A;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Georgia, serif;
+}
